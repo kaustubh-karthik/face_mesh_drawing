@@ -87,7 +87,7 @@ class detector():
 def main():
 
     # Choose one out of 'hands, pose, face_mesh'
-    detect = detector('face_mesh')
+    detect = detector('holistic')
 
     cap = cv2.VideoCapture(1) # Check for error
 
